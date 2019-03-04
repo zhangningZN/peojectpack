@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div class="f">
+    <div class="son">sssss</div>
+    <div class="son">sssss</div>
+    <div class="son">sssss</div>
+  </div>
+  <style>
+    .f{
+      display: flex;
+      flex-direction: row;
+      width:1200px;
+      margin: 0 auto;
+
+    }
+    .son{
+      /* background-color */
+      height: 50px;
+    }
+    .son:nth-of-type(1){
+      width:200px;
+      background-color: lightseagreen;
+    }
+    .son:nth-of-type(2){
+      flex:1;
+      background-color: lightcoral;
+    }
+    .son:nth-of-type(3){
+      flex:1;
+      background-color: palegreen;
+    }
+
+  </style>
+</body>
+</html>
